@@ -79,7 +79,7 @@ main{
   padding: 20px 50px;
 }
 
-img{
+.headshot{
   object-fit: cover;
   width: 50%;
   justify-content: center;
@@ -150,3 +150,18 @@ section p{
 }
 
 /* end about page */
+
+/* projects page */
+.gallery{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  height: 250px;
+}
+
+.gallery section{
+  aspect-ratio: 1;
+  width: 45%;
+  justify-content: space-between;
+}
+/* end project page */
