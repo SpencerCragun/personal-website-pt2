@@ -1,35 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: blue;
 }
 
-body{
-  min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-ul{
-  display: flex;
-}
-
-li{
-  background-color: rebeccapurple;
-  width:100%;
-  display: flex;
-  color: white;
-  justify-content: flex-end;
-  height: 45px;
-  align-items: center;
-  padding: 0 30px;
-}
-
-a{
-  color: white;
-  list-style: none;
+li, a, button{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
   text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
-.name{
-  justify-content: flex-start;
-  font-weight: 650;
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: aquamarine;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: blue;
+}
+
+button:hover{
+  background-color: rgb(18, 29, 25);
+}
+
+.logo{
+  font-family: "Protest Strike";
+  color: white;
+  font-size:larger;
+}
+
+@media (max-width: 650px) {
+  button {
+    display: none;
+  }
 }
