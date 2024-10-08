@@ -27,6 +27,8 @@ header{
   flex-wrap: wrap;
 }
 
+nav
+
 .nav-links li {
   display: inline-block;
   padding: 0px 60px;
@@ -59,7 +61,7 @@ button:hover{
 }
 
 .logo{
-  font-family: "Protest Strike";
+  font-family: "Bebas Neue", sans-serif;
   color: greenyellow;
   font-size:larger;
 }
@@ -82,7 +84,6 @@ main{
 .headshot{
   object-fit: cover;
   width: 50%;
-  justify-content: center;
 }
 
 section{
@@ -113,8 +114,8 @@ section p{
   section{
     width: 100%;
   }
-  img{
-    width: auto;
+  .headshot{
+    width: 100%;
   }
 }
 
@@ -165,3 +166,39 @@ section p{
   justify-content: space-between;
 }
 /* end project page */
+
+/* contact page */
+
+.contacts-form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+  
+  
+
+.contact-input{
+  height: 30vh;
+  width: 55vh;
+  border-radius: 20px;
+}
+
+input, textarea{
+  width: 300px;
+  height: 50px;
+  padding-left: -25px;
+  color: #121312;
+  font-family: "Montserrat", sans-serif; ;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+textarea{
+  height: 200px;
+}
+
+h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 8vw;
+  color: white;
+}
