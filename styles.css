@@ -6,7 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: blue;
+  background-color: #070707;
 }
 
 li, a, button {
@@ -14,7 +14,7 @@ li, a, button {
   font-size: 16px;
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: greenyellow;
 }
 
 header{
@@ -35,7 +35,7 @@ header{
 }
 
 .nav-links li a:hover {
-  color: aquamarine;
+  color: white;
 }
 
 .logo {
@@ -44,21 +44,21 @@ header{
 
 button {
   padding: 9px 25px;
-  background-color: white;
+  background-color: greenyellow;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  color: blue;
+  color: black;
 }
 
 button:hover{
-  background-color: rgb(18, 29, 25);
+  background-color: white;
 }
 
 .logo{
   font-family: "Protest Strike";
-  color: white;
+  color: greenyellow;
   font-size:larger;
 }
 
@@ -79,13 +79,14 @@ main{
   display: flex;
   width: 100%;
   padding: 50px;
-  height: 500px;
 }
 
 img{
+  object-fit: cover;
   width: 50%;
-  margin: 20px 20px;
+  justify-content: center;
 }
+
 section{
   display: flex;
   width: 50%;
